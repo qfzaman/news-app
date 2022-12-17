@@ -1,7 +1,12 @@
-import React from 'react'
+'use client'
+import TimeAgo from 'react-timeago'
 
-function LiveTimestamp() {
-    return <div></div>
+type Props = {
+    time: string
+}
+
+function LiveTimestamp({ time }: Props) {
+    return <TimeAgo date={time} />
 }
 
 export default LiveTimestamp
