@@ -1,4 +1,4 @@
-# Live News App with Next.js 13 (TypeScript, Tailwind, GraphQL)
+# Live News App with Next.js 13 (TypeScript, TailwindCSS, GraphQL)
 * Create a .env file
 * Copy paste variables from example.env
 * Set correct informations
